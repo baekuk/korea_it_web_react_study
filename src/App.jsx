@@ -3,6 +3,8 @@ import BasicJsx from './components/Basicjsx/Basicjsx'
 import BasicProps from './components/BasicProps/BasicProps'
 import BasicReact from './components/BasicReact/BasicReact'
 import CountState from './components/BasicState/CountState/CountState'
+import Calculator from './components/BasicState/Calculator/Calculator'
+
 
 function App() {
   
@@ -12,6 +14,7 @@ function App() {
       {/*<BasicJsx />*/}
       {/* <BasicProps /> */}
       <CountState />
+      {/* <Calculator /> */}
     </>    
   )
 }
